@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+table, tr, td {
+    border: solid 2px black;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 80px;
+}
