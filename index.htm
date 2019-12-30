@@ -10,6 +10,24 @@
 </head>
 
 <body>
+    <h1>TIC TAC TOE GAME</h1>
+
+    <div class="buttons">
+        <div class="new btn">
+            <input type="button" value="new game" id="new-game">
+        </div>
+        <div class="restart btn">
+            <input type="button" value="restart" id="restart-game">
+        </div>
+    </div>
+
+    <div class="text-game js-current-player">
+
+    </div>
+
+    <div class="text-game js-game-end">
+
+    </div>
 
     <table>
         <tr>
@@ -29,6 +47,24 @@
         </tr>
 
     </table>
+
+
+
+
+    <div class="play-container">
+        <div>
+            <div class="player">
+                <input type="text" name="player1" id="js-player1-name" placeholder="Enter player1's name">
+            </div>
+            <div class="player">
+                <input type="text" name="player2" id="js-player2-name" placeholder="Enter player2's name">
+            </div>
+            <div class="play-btn">
+                <input type="submit" name="player2" id="js-play-btn" value="Play">
+            </div>
+        </div>
+
+    </div>
 
 
     <script src="./script.js"></script>
