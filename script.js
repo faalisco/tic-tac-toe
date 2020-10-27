@@ -149,12 +149,13 @@ const gameBoard = (() => {
             gameControl.resetBoard(gamBoardArray);
             document.querySelector('.js-game-end').textContent = ' ';
             currentPlayer = playerX;
+            gameControl.showPlayerToPlay(currentPlayer, showCurrentPlayer);
         });
 
 
-    });
+    });  
 
 
 
-    return { currentPlayer };
+    // return { currentPlayer };
 })()
