@@ -30,6 +30,7 @@ const gameControl = (() => {
             (board[1] === player.getMarker() && board[4] === player.getMarker() && board[7] === player.getMarker()) ||
             (board[2] === player.getMarker() && board[5] === player.getMarker() && board[8] === player.getMarker()) ||
             (board[2] === player.getMarker() && board[4] === player.getMarker() && board[6] === player.getMarker()) ||
+            (board[3] === player.getMarker() && board[4] === player.getMarker() && board[5] === player.getMarker()) ||
             (board[6] === player.getMarker() && board[7] === player.getMarker() && board[8] === player.getMarker())
 
         ) {
